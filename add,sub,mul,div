@@ -1,0 +1,36 @@
+#include<stdio.h>
+int main()
+{
+    int a,b;
+    scanf("%d%d",&a,&b);
+    printf("add : %d",a+b);
+    return 0;
+}
+
+#include<stdio.h>
+int main()
+{
+    int a,b;
+    scanf("%d%d",&a,&b);
+    printf("subtract : %d",a-b);
+    return 0;
+}
+
+#include<stdio.h>
+int main()
+{
+    int a,b;
+    scanf("%d%d",&a,&b);
+    printf("multiply : %d",a*b);
+    return 0;
+}
+
+
+#include<stdio.h>
+int main()
+{
+    int a,b;
+    scanf("%d%d",&a,&b);
+    printf("divide : %d",a/b);
+    return 0;
+}
