@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+    int a=1589,n;
+    while(a!=0)
+    {
+        n=a%10;
+        printf("%d",n);
+        a=a/10;
+    }
+    
+    return 0;
+}
