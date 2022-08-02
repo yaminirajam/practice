@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+    char n,vowels;
+    scanf("%c",&n);
+    vowels = (n=='a' || n=='e' || n=='i' || n=='o' || n=='u');
+    if(vowels)
+    printf("It is a vowel");
+    else
+    printf("It is not a vowel");
+    return 0;
+}
