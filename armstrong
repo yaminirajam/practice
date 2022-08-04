@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include<math.h>
+int main()
+{
+    int n,m,digit=0,sum=0;
+    scanf("%d",&n);
+    m=n;
+    while(m>0)
+    {
+        m=m/10;
+        digit++;
+    }
+    m=n;
+    while(m>0)
+    {
+        sum=sum+pow((m%10),digit);
+        m=m/10;
+    }
+    if(sum==n){
+            printf("armstrong");
+        }
+            else{
+                printf("Not an armstrong");
+        }
+    return 0;
+}
